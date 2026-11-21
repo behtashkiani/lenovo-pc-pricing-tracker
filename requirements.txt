@@ -1,0 +1,15 @@
+# Collector: Chrome TLS/HTTP2 impersonation + one-off browser warm-up for the session cookies.
+# Playwright drives the Chrome already installed on the machine (no browser download needed).
+curl_cffi>=0.7
+playwright>=1.45
+
+# Storage: Supabase Postgres.
+psycopg[binary]>=3.2
+
+# Dashboard.
+streamlit>=1.67
+plotly>=6.0
+pandas>=2.2
+
+python-dotenv>=1.0
+pytest>=8

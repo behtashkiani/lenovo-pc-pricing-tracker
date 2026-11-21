@@ -1,0 +1,25 @@
+# secrets and sessions
+.env
+.bestbuy_session.json
+**/.bestbuy_session.json
+**/cookie.txt
+# early test script with a pasted browser cookie in it
+bestbuy-scalper/bestbuy.sh
+
+# local store (rebuild with: python -m tracker.db pull && python build_groups.py)
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# logs and scratch output
+*.log
+bestbuy-scalper/out/
+
+# local Claude Code settings and archives
+.claude/settings.local.json
+project.zip
+.DS_Store
