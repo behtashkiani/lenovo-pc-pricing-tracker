@@ -15,7 +15,7 @@ Lenovo confirmed by email (16 Nov 2026): history built from daily snapshots is a
 - **No Task Scheduler for now** (said 20 Nov). The daily job is run by hand. Do not register a scheduled task unless asked.
 - **ShopSavvy credits are scarce**: ask before any paid call and state the cost.
 - Dashboard layout was the user's call: the group-independent sections (collection methods, unmatched specs, review queue, runs) live on their own page, not inside a comparison group.
-- The README was a draft the user said could be edited. `README(draft).md` is their original and is kept untouched; `README.md` is the current one.
+- The README was a draft the user said could be edited. `README(draft).md` is their original and is kept untouched locally; it is git-ignored and not on GitHub (user's call, 22 Nov). `README.md` is the current one; component docs are in `docs/`.
 - The user writes briefly and with typos ("scalper" = scraper). Reply plainly and lead with the result.
 
 ## Current state

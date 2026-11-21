@@ -23,3 +23,6 @@ bestbuy-scalper/out/
 .claude/settings.local.json
 project.zip
 .DS_Store
+
+# the user's original README draft, kept locally only
+README(draft).md
